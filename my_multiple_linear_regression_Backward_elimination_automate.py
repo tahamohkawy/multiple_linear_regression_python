@@ -111,5 +111,5 @@ while should_continue:
 regressor_OLS.summary()
 
 #We have the optimal model, now predict
-y_pred = regressor_OLS.predict(X_test)
+y_pred = regressor_OLS.predict(X_opt)
 
